@@ -10,4 +10,5 @@
 
 @interface RTViewController : UIViewController
 
+- (IBAction)minhaAcao:(id)sender;
 @end

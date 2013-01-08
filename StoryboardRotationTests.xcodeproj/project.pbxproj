@@ -18,6 +18,7 @@
 		AD47E9C916966A9F00FD91E3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD47E9C816966A9F00FD91E3 /* Default-568h@2x.png */; };
 		AD47E9CC16966A9F00FD91E3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD47E9CA16966A9F00FD91E3 /* MainStoryboard.storyboard */; };
 		AD47E9CF16966A9F00FD91E3 /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD47E9CE16966A9F00FD91E3 /* RTViewController.m */; };
+		AD47E9D616966BA000FD91E3 /* LandscapeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD47E9D516966BA000FD91E3 /* LandscapeView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		AD47E9CB16966A9F00FD91E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AD47E9CD16966A9F00FD91E3 /* RTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTViewController.h; sourceTree = "<group>"; };
 		AD47E9CE16966A9F00FD91E3 /* RTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTViewController.m; sourceTree = "<group>"; };
+		AD47E9D516966BA000FD91E3 /* LandscapeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandscapeView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				AD47E9CD16966A9F00FD91E3 /* RTViewController.h */,
 				AD47E9CE16966A9F00FD91E3 /* RTViewController.m */,
 				AD47E9B916966A9F00FD91E3 /* Supporting Files */,
+				AD47E9D516966BA000FD91E3 /* LandscapeView.xib */,
 			);
 			path = StoryboardRotationTests;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				AD47E9C716966A9F00FD91E3 /* Default@2x.png in Resources */,
 				AD47E9C916966A9F00FD91E3 /* Default-568h@2x.png in Resources */,
 				AD47E9CC16966A9F00FD91E3 /* MainStoryboard.storyboard in Resources */,
+				AD47E9D616966BA000FD91E3 /* LandscapeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +303,7 @@
 				AD47E9D416966A9F00FD91E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
